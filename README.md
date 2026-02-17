@@ -13,6 +13,8 @@ Realizzare un'applicazione desktop che consenta di:
 - Eliminare un contatto
 - Salvare automaticamente i dati su file
 - Caricare automaticamente i dati all'avvio
+- Ordinamento colonne cliccando sull'intestazione
+- Ricerca dinamica in tempo reale
 
 ---
 
@@ -30,7 +32,7 @@ Il progetto è strutturato secondo una separazione delle responsabilità:
 
 ## Persistenza
 
-I dati vengono salvati in un file locale `informazioni.txt`  
+I dati vengono salvati nel file locale `informazioni.txt`  
 Formato riga:
 
 Nome;Cognome;Indirizzo;Telefono;Eta
@@ -45,6 +47,7 @@ Il file viene creato automaticamente se non presente.
 - Java Swing
 - JTable
 - File I/O
+- TableRowSorter
 
 ---
 
